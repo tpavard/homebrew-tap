@@ -35,19 +35,6 @@ cask "tpht-peazip" do
   zap trash: [
     "~/Library/Preferences/com.company.peazip.plist",
     "~/Library/Saved Application State/com.company.peazip.savedState",
-    "~/Library/Services/PeaZip, add to archive.workflow",
-    "~/Library/Services/PeaZip, add to BZ2.workflow",
-    "~/Library/Services/PeaZip, add to Brotli.workflow",
-    "~/Library/Services/PeaZip, add to GZ.workflow",
-    "~/Library/Services/PeaZip, add to TAR.workflow",
-    "~/Library/Services/PeaZip, add to XZ.workflow",
-    "~/Library/Services/PeaZip, add to Zstd.workflow",
-    "~/Library/Services/PeaZip, convert.workflow",
-    "~/Library/Services/PeaZip, extract here (smart new folder).workflow",
-    "~/Library/Services/PeaZip, extract to Desktop.workflow",
-    "~/Library/Services/PeaZip, extract to Documents.workflow",
-    "~/Library/Services/PeaZip, extract to Downloads.workflow",
-    "~/Library/Services/PeaZip, extract....workflow",
-    "~/Library/Services/PeaZip, open file or folder.workflow",
+    "~/Library/Services/[pP]ea[zZ]ip*.workflow",
   ]
 end
