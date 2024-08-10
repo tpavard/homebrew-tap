@@ -2,10 +2,10 @@ cask "tpht-peazip" do
   arch arm: "aarch64",
        intel: "x86_64"
 
-  version "9.8.0"
+  version "9.9.0"
 
-  sha256 arm: "5fba1cc7f69f1a445e7fea04fbf07e28e23189d7ba301451da3d49368e6c77c1",
-         intel: "ccb608ea543ba29dc6b992537d144475ab21f68ec03abd8a78b728cf0aaebf5e"
+  sha256 arm: "db263bd35d3fe5da4b5bb0eebef4a9209c2a371a8c2c495cf5c73a8ac3db1afc",
+         intel: "8b2eb492396ceab34860c53f3611a126c576198377dbbb149b9329ea298c5545"
 
   url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.#{arch}.dmg",
     verified: "github.com/peazip/PeaZip/"
