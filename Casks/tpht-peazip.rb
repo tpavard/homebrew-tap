@@ -26,10 +26,10 @@ cask "tpht-peazip" do
     In order to avoid quarantine, you need to install the app with the following command :
     'brew install --no-quarantine tpht-peazip'
 
-    You can find Automator ".workflow" scripts in the cask installation folder :
+    You can find ".workflow" Automator scripts in the cask installation folder :
     '#{staged_path}/macOS service menus'
 
-    You can double click them to install main functions to the right-click context menu.
+    Double click them to install main functions to the right-click context menu.
   EOS
 
   zap trash: [
