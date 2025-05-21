@@ -12,7 +12,7 @@ cask "tpht-peazip" do
 
   name "PeaZip"
   desc "Free Zip / Unzip software and Rar file extractor."
-  homepage "https://github.com/peazip/PeaZip"
+  homepage "https://peazip.github.io"
 
   livecheck do
     url :url
